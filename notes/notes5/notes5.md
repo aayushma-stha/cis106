@@ -91,32 +91,32 @@
     * **$HOME** = stores the absolute path of current’s user home directory
     * **$PWD** = stores the absolute path of the present working directory.
     * **$OLDPWD** = stores the absolute path of the previous current working directory
-  
+
 ## What is a user defined variable?
   **User defined variables** are created by the user and exist only in the script and subshell that runs the script. It allows us to temporarily store data and use it throughout the script-just like any other programming language.
   * It can be any text string of up to 20 letters, digits, or underscore characters but they **CANNOT start with a number.**
   * User variables are **case sensitive.** (eg: var1 is not Var1)
   * Values are assigned using an **equal sign with no spaces.** (eg: name='Peter')
   * The shell stores all values as text strings; Bash is essentially untyped.
-  
+
 ## What is the root directory?
   **Root directory** is the first directory in the filesystem that contains the entire filesystem represented by “`/`”.
-  
+
 ## What does “Parent Directory” mean?
   **Parent directory** is a directory containing one or more directories and files.
-  
+
 ## What does “Current working directory” mean?
   **Current working directory** is also known as the present working directory. It is the directory where we are currently working in. We are always working from a directory.
-  
+
 ## What is an absolute path? Include an example.
   An **absolute path** is the location of a file starting at the root of the file system. 
   **For example:**
   `/home/aayushmas/Downloads/list.txt` is the absolute path of the file `list.txt.`
-  
+
 ## What is a relative path? Include an example.
   A **relative path** the location of a file starting from a child directory of the current working directory or from the current directory itself.
   **An example** of a relative path would be `Downloads/list.txt` assuming that the current working directory is `/home/aayushmas`
-  
+
 ## What is the difference between “Your home directory” and “The home directory”?
   **YOUR HOME DIRECTORY** is our user’s personal directory where all our files are located. Every user has it’s own home directory. We have total ownership of our home directory but outside of the home directory only the root user can make changes. 
   * **For Example:** An absolute path, assuming that user name is aayushmas, would be `/home/aayushmas`
