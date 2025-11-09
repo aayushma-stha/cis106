@@ -20,7 +20,7 @@
   * Create a directory in a different directory using **absolute path**
     * `mkdir ~/wallpapers/forest`
   * Create a directory with a space in the name
-    * `mkdir wallpapers/new\cars`
+    * `mkdir wallpapers/new\ cars`
     * `mkdir wallpapers/'cities usa'`
   * Create a directory with a single quote in the name
     * `mkdir wallpapers/"major's mask"`
@@ -30,6 +30,8 @@
     * `mkdir -p wallpapers_others/movies`
   * Create a directory and display a message confirming the directory creation (**verbose output**)
     * `mkdir -pv wallpapers_others/movies`
+
+![](ex.mkdir.png)
 <hr>
 
 ## TOUCH
@@ -54,6 +56,8 @@
     * `touch Downloads/games2.txt`
   * Create a file with a space in its name
     * `touch "list of foods.txt"`
+
+![](ex.touch.png)
 <hr>
 
 ## RM
@@ -91,6 +95,8 @@
     * `rm -vir games/program.py ~/ProjectDelta`
   * Remove a **non empty directory** forcing the removal
     * `rm -rf games/`
+
+![](ex.remove.png)
 <hr>
 
 ## CP
@@ -120,6 +126,8 @@
     * `sudo cp -r script.sh program.py home.html assets/ /var/www/html/`
   * To copy a directory with verbose output
     * `cp -rv ~/projectOrion/ ~/Documents/`
+
+![](ex.copy.png)
 <hr>
 
 ## MV
@@ -155,4 +163,6 @@
 
   * To **move and rename** a file in the same command
     * `mv Downloads/cis106homework.docx Documents/new_cis106homework.docx`
+
+![](ex.move-rename.png)
 <hr>
