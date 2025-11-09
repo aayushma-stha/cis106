@@ -28,6 +28,8 @@
     * `mkdir wallpapers/cars wallpapers/cities wallpapers/forest`
   * Create a directory with a parent directory at the same time.
     * `mkdir -p wallpapers_others/movies`
+  * Create a directory and display a message confirming the directory creation (**verbose output**)
+    * `mkdir -pv wallpapers_others/movies`
 <hr>
 
 ## TOUCH
@@ -48,7 +50,7 @@
     * `touch list_of_cars.txt script.py names.csv`
   * Create a file using **absolute path**
     * `touch ~/Downloads/games.txt`
-  * Create a file using **relative path** (assuming you pwd you home directory)
+  * Create a file using **relative path** (assuming you pwd your home directory)
     * `touch Downloads/games2.txt`
   * Create a file with a space in its name
     * `touch "list of foods.txt"`
@@ -85,6 +87,10 @@
     * `rmdir Downloads/games`
   * Remove an non-empty directory
     * `rm -r Downloads/games`
+  * Remove files and directories but prompt for confirmation before removing and display removal message when done
+    * `rm -vir games/program.py ~/ProjectDelta`
+  * Remove a **non empty directory** forcing the removal
+    * `rm -rf games/`
 <hr>
 
 ## CP
@@ -144,7 +150,7 @@
 
   * To **rename** a file
     * ` mv homework.docx cis106homework.docx`
-  * To **rename** a file using**absolute path**
+  * To **rename** a file using **absolute path**
     * `mv ~/Downloads/homework.docx ~/Downloads/cis106homework.docx`
 
   * To **move and rename** a file in the same command
