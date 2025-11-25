@@ -1,5 +1,5 @@
 # Notes 7
-
+**Note for professor:** - Due to some unexpected issue with my VirtualBox, there was a delay while submitting this assignment. Please consider it.
 ## Wildcard
 * **A wildcard** is a symbol used to replace or represent one or more characters in a file name.
 
@@ -13,10 +13,10 @@
 * **Examples:**
   * List all the files in a given directory
     * `ls Downloads/*`
-  * List all the text files in a gib=ven directory
-    * `ls Downloads/*.txt`
+  * List all the text files in a given directory
+    * `ls Downloads/*.jpg`
   * List all the text files in a given directory that start with letter f
-    * `ls Downloads/f*.txt`
+    * `ls Downloads/w*.jpg`
   * List all the files that contain the word file in the name
     * `ls *file*`
   * Move all the files one directory to another
@@ -27,6 +27,8 @@
     * `rm ~/Downloads,demo*.exe ~/Videos/*music*.avi`
   * Move specific files from one directory to another
     * `mv Downloads/Movies/{*.png,*.gif} Downloads/Movies/MCU`
+  
+![](wildcard*.png)
 <hr>
 
 ### The ? Wildcard
@@ -38,25 +40,27 @@
     * `ls ./.??*`
   * List all the hidden files in the parent directory
     * `ls ../.??*`
-  * List all the files that have 2 characters in the file name between letters b and k
-    * `ls b??k*`
-  * List all the files that have a single character between letters f and l
-    * `ls f?l*`
+  * List all the files that have 2 characters in the file name between letters m and i
+    * `ls m??i*`
+  * List all the files that have a single character between letters s and a
+    * `ls s?a*`
   * List all the files with a 2 letter file extension
     * `ls *.??`
+
+![](wildcard.que.png)
 <hr>
 
 ### The [] Wildcard
 * The brackets wildcard matches a **single character in a range.**
 * The brackets wildcard use the exclamation mark to reverse the match.
 * For example: match everything except vowels[!aeoiu] or any character except numbers[!0-9]
-* **Examples:**
-  * To match all files that have a vowel after letter f:
-    * `ls f[aeiou]*`
-  * To match all files that do not have a vowel after letter f:
-    * `ls f[!aeiou]*`
-  * To match all files that have a range of letters after f:
-    * `ls f[a-z]*`
+* **Examples:**:
+  * To match all files that have a vowel after letter m:
+    * `ls m[aeiou]*`
+  * To match all files that do not have a vowel after letter m:
+    * `ls m[!aeiou]*`
+  * To match all files that have a range of letters after l:
+    * `ls l[a-z]*`
   * To match all files whose name has at least one number:
     * `ls *[0-9]*`
   * To match all the files whose name does not have a number in their file name:
@@ -67,6 +71,8 @@
     * `ls [a-fp-z]*`
   * To match all files whose name begins with any 3 combination of numbers and the current user's username:
     * `ls [0-9][0-9][0-9]$USER`
+
+![](wildcard*.png)
 <hr>
 
 ## Brace Expansion

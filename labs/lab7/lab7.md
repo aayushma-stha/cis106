@@ -1,4 +1,5 @@
 # Lab 7 Submission
+**Note for professor:** - Due to some unexpected issue with my VirtualBox, there was a delay while submitting this assignment. Please consider it.
 
 ## Question 1: Complete Practice Exercise
 ### Practice 1: The * wildcard
