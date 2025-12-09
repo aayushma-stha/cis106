@@ -63,7 +63,7 @@
 
 ## AWK
 * **Definition:** 
-  * Awk is a scripting language used for processing and displaying text.Awk can work with a text file or from standard output.
+  * Awk is a scripting language used for processing and displaying text files.Awk can work with a text file or from standard output.
   * There are several implementations of Awk: nawk, mawk, gwak, and busybox.
   * Awk performs operations line by line.
 * **Usage:**
@@ -156,9 +156,9 @@
   * Insert 5 spaces to the left of every lines
     * `sed 's/^/     /' helloWorld.c`
 
-1.Explain how to use the pipe (|) for redirecting the output of a command to another.
+## 1.Explain how to use the pipe (|) for redirecting the output of a command to another.
 * **Definition:** 
-  * The pipe allows you to redirect the standard output of a command to the standard input of another. 
+  * The pipe allows us to redirect the standard output of a command to the standard input of another. 
 * **Usage:**
   * `command_1 | command_2 | command_3 | ----- | command_N`
 * **Examples:**
@@ -173,7 +173,9 @@
   * Parse a file with grep and replace a string in the output
     * `grep -i “honda” cars.csv | sed ‘s/honda/tesla/g’`
 
-2.Explain how to save the output of a command to a file (>).
+## 2.Explain how to save the output of a command to a file (>).
+* **Definition:** 
+  * It redirects or save the output of a command to a file.
 * **Usage:**
   * `command output + > + file`
 * **Examples:**
@@ -188,10 +190,12 @@
   * Do not display errors. Send errors to the black hole
     * `ls -lA downloads/ 2> /dev/null`
 
-3.Explain how to append the output of a command to a file. Include at least 3 examples.
-* Append means to add more to a file instead of overwriting its content. When we use `>` on a file that already exist and contains data, we overwrite whatever is already inside the file. For instance take this example:
+## 3.Explain how to append the output of a command to a file. Include at least 3 examples.
+* Append means to **add** more to a file instead of overwriting its content. When we use `>` on a file that already exist and contains data, we overwrite whatever is already inside the file. 
+  * **For example:**
   * `ls -la > allmyfiles.lst`
 * In this example, if the file allmyfiles.lst had any data prior executing the command, that data will be overwritten by the output of `ls -la`.
-* What happens if we want to keep the old data? Then we use `>>` for example
+* What happens if we want to keep the old data? Then we use `>>`.
+  *  **For example:**
   * `ls -la >> allmyfiles.lst`
 * Will add the output of `ls -la` to the end of the file `allmyfiles.lst`.
