@@ -16,6 +16,10 @@
 ![](q3.4.5.png)
 
 ## Question 4:
+![](q4.1.2.png)
+
+![](q4.3.png)
+
 ![]()
 
 ## Question 5: Managing Aliases
