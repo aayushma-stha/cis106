@@ -20,10 +20,13 @@
 
 ![](q4.3.png)
 
-![]()
-
-## Question 5: Managing Aliases
-![]()
+![](q4.4.5.png)
 
 ## Challenge Question:
-![]()
+![](ch.1.png)
+
+![](ch.2.png)
+
+![](ch.3.png)
+
+![](challenge.gif)
